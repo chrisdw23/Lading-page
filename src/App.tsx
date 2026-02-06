@@ -1,11 +1,14 @@
-function App() {
+ import  { Header } from './components/header'
+
+ function App() {
 
  return (
-    <>
-    <h1>CodingTube</h1>
-    </>
+    <main className='border border-white w-[375px] m-auto'>
+      <section className='bg-Navy-850 p-6-h-[420px]'>
+        <Header />
+      </section>
+    </main>
   )
 }
   
-
 export default App
