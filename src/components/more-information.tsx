@@ -1,10 +1,11 @@
 export const MoreInformation = () => {
   return (
-    <div className="my-40"> 
+    <div className="my-40 md:flex md:items-center md:gap-4 max-w-[920px] mx-auto"> 
 
-      <img className="mb-12" src="/images/illustration-stay-productive.png" alt="Stay productive illustration" />  
-      
-      <h2 className="font-bold mb-4">Stay productive, wherever you are</h2>
+      <img className="mb-12 md:w-[380px]" src="/images/illustration-stay-productive.png" alt="Stay productive illustration" />  
+
+      <div>
+        <h2 className="font-bold mb-4">Stay productive, wherever you are</h2>
       
       <p className="text-sm mb-4">Never let your location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
       
@@ -14,6 +15,7 @@ export const MoreInformation = () => {
         <p>See how Fylo works</p>
         <img src="/images/icon-arrow.svg" alt="Arrow icon" />
       </a>
+      </div>
     </div>
   )
 }
